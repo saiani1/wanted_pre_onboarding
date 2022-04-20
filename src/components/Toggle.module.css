@@ -1,0 +1,40 @@
+.radio_wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+.radio_wrap input {
+  display: none;
+}
+.radio_wrap label {
+  display: inline-block;
+  padding: 6px 80px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+  z-index: 1;
+}
+.toggle {
+  position: absolute;
+  top: 3.5px;
+  left: 4px;
+  width: 190px;
+  height: 32.5px;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.radio_wrap .left_active,
+.radio_wrap .right_active {
+  color: #777;
+}
+.right_active ~ .toggle {
+  margin-left: 202px;
+}

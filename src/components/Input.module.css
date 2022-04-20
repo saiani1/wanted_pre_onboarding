@@ -1,0 +1,73 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.form label {
+  display: inline-block;
+  margin: 0 0 5px 4px;
+  font-size: 14px;
+  color: #aaa;
+}
+.form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+.form input:focus {
+  outline: none;
+  border: 1px solid #666;
+}
+.form input::placeholder {
+  font-size: 13px;
+  color: #ccc;
+}
+.first_input_wrap {
+  position: relative;
+  margin-bottom: 20px;
+}
+.second_input_wrap {
+  position: relative;
+}
+.error_text {
+  margin: 3px 0 0 4px;
+  font-size: 13px;
+  color: rgb(197, 35, 35);
+}
+.invalid {
+  position: absolute;
+  top: 32.5px;
+  right: 9px;
+  font-size: 18px;
+  color: #eee;
+}
+.valid {
+  position: absolute;
+  top: 32.5px;
+  right: 9px;
+  font-size: 18px;
+  color: darkcyan;
+}
+.password_hide_btn {
+  position: absolute;
+  top: 32.5px;
+  right: 7px;
+  font-size: 18px;
+  color: #aaa;
+  cursor: pointer;
+}
+.password_show_btn {
+  position: absolute;
+  top: 32.5px;
+  right: 7px;
+  font-size: 18px;
+  color: darkcyan;
+  cursor: pointer;
+}
+.password_hide_btn:hover {
+  color: #777;
+}
+.password_show_btn:hover {
+  color: rgb(0, 73, 73);
+}
