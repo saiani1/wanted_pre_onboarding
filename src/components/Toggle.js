@@ -6,7 +6,6 @@ const Toggle = () => {
 
   const checkedRadioHandler = (event) => {
     setCheckedRadio(event.target.value);
-    console.log(event.target.value)
   };
 
   return (

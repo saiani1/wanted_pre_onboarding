@@ -2,6 +2,7 @@
   padding: 30px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .wrap h2 {
   margin-bottom: 30px;
@@ -14,4 +15,8 @@
   width: 600px;
   border: 1px solid #ddd;
   border-radius: 10px;
+}
+
+.wrap section:last-child {
+  height: 700px;
 }
