@@ -5,7 +5,6 @@ const Tab = () => {
   const [checkedLi, setCheckedLi] = useState("first");
   const navClickHandler = (event) => {
     event.preventDefault();
-
     setCheckedLi(event.target.text);
   };
 
